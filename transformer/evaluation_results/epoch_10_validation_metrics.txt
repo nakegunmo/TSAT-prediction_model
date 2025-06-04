@@ -1,0 +1,33 @@
+Epoch 10 Validation Metrics
+==============================
+Overall Metrics (based on argmax prediction):
+Confusion Matrix:
+[[44262   328   345]
+ [ 2443   182     4]
+ [ 2287     3   111]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       Other       0.90      0.99      0.94     44935
+         Min       0.35      0.07      0.12      2629
+         Max       0.24      0.05      0.08      2401
+
+    accuracy                           0.89     49965
+   macro avg       0.50      0.37      0.38     49965
+weighted avg       0.84      0.89      0.86     49965
+
+
+--- Metrics for Threshold: 0.25 ---
+F1-score (Min) @0.25: 0.2320
+F1-score (Max) @0.25: 0.1927
+--- Metrics for Threshold: 0.5 ---
+F1-score (Min) @0.5: 0.0662
+F1-score (Max) @0.5: 0.0415
+--- Metrics for Threshold: 0.75 ---
+F1-score (Min) @0.75: 0.0098
+F1-score (Max) @0.75: 0.0058
+ROC-AUC (Min): 0.8144
+PR-AUC (Min): 0.1883
+ROC-AUC (Max): 0.7991
+PR-AUC (Max): 0.1458

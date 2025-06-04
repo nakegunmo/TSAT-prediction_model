@@ -1,0 +1,33 @@
+Epoch 3 Validation Metrics
+==============================
+Overall Metrics (based on argmax prediction):
+Confusion Matrix:
+[[44280   411   244]
+ [ 2390   236     3]
+ [ 2317    10    74]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       Other       0.90      0.99      0.94     44935
+         Min       0.36      0.09      0.14      2629
+         Max       0.23      0.03      0.05      2401
+
+    accuracy                           0.89     49965
+   macro avg       0.50      0.37      0.38     49965
+weighted avg       0.84      0.89      0.86     49965
+
+
+--- Metrics for Threshold: 0.25 ---
+F1-score (Min) @0.25: 0.2626
+F1-score (Max) @0.25: 0.1470
+--- Metrics for Threshold: 0.5 ---
+F1-score (Min) @0.5: 0.0939
+F1-score (Max) @0.5: 0.0303
+--- Metrics for Threshold: 0.75 ---
+F1-score (Min) @0.75: 0.0105
+F1-score (Max) @0.75: 0.0058
+ROC-AUC (Min): 0.7743
+PR-AUC (Min): 0.1875
+ROC-AUC (Max): 0.7463
+PR-AUC (Max): 0.1382
