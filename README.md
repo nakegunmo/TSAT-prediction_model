@@ -41,10 +41,10 @@ pip install torch pandas numpy scikit-learn matplotlib tqdm
 ## モデル構造 
 モデルはPyTorchで実装されており、主に2つのクラスから構成されます。
 
-1. PositionalEncoding: Transformerが入力の順序情報を理解できるように、各時点のデータに位置情報を付加します。
-2. TransformerClassifierSoftLabel: メインのモデル。
-- 入力: 4つの特徴量（正規化されたclose, high, low, volume）を持つ時系列シーケンス。
-- 構造:
+- PositionalEncoding: Transformerが入力の順序情報を理解できるように、各時点のデータに位置情報を付加します。
+- TransformerClassifierSoftLabel: メインのモデル。
+-- 入力: 4つの特徴量（正規化されたclose, high, low, volume）を持つ時系列シーケンス。
+-- 構造:
 1. 入力射影層: 4次元の特徴量をモデルの内部次元数（d_model）に変換します。
 2. Positional Encoding: 位置情報を付加します。
 3. Transformer Encoder: Multi-Head Self-Attention機構を用いて、シーケンス内の時間的パターンを学習します。
