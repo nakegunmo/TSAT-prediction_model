@@ -1,9 +1,3 @@
-# バッククォートやMarkdown構文を含まない形で完全に修正して出力する
-from pathlib import Path
-
-readme_path = Path("/mnt/data/README.md")
-
-readme_text = (
 "# TransformerによるBTC価格パターン検出モデル\n\n"
 "このリポジトリは、Bitcoin（BTC）の5分足時系列データを用いて、極小値・極大値・その他の3クラス分類および\n"
 "次時点の価格変動比率の回帰予測を同時に行うTransformerベースのモデルを実装しています。\n\n"
@@ -53,7 +47,3 @@ readme_text = (
 "- 異常検知・価格反転検出などへの応用\n\n"
 "## お問い合わせ\n"
 "ご質問・ご提案・プルリクエストなど歓迎します！"
-)
-
-readme_path.write_text(readme_text, encoding="utf-8")
-readme_path.name
