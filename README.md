@@ -32,6 +32,9 @@
 ```bash
 pip install torch pandas numpy scikit-learn matplotlib tqdm
 ```
+### 実行ファイル
+* ev_transformer.ipynb
+
 
 ## モデル構造 
 モデルはPyTorchで実装されており、主に2つのクラスから構成されます。
