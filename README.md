@@ -28,5 +28,8 @@
 
 必要なライブラリは、以下のコマンドでインストールできます。
 
+ ![Image](https://github.com/user-attachments/assets/cee5e84a-7ad6-4367-ad26-c3351462746f)
 ```bash
 pip install torch pandas numpy scikit-learn matplotlib tqdm
+
+
