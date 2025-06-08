@@ -33,7 +33,7 @@
 pip install torch pandas numpy scikit-learn matplotlib tqdm
 ```
 
-## 予測の例
+## 予測結果の例
 以下は、る価格チャートと予測シグナルのプロット例です。緑の上向き三角が「極小（買い）」シグナル、赤の下向き三角が「極大（売り）」シグナルを示しています。
 
 ![極小・極大シグナルのプロット例](https://github.com/user-attachments/assets/cee5e84a-7ad6-4367-ad26-c3351462746f)
