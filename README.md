@@ -34,6 +34,7 @@ pip install torch pandas numpy scikit-learn matplotlib tqdm
 ```
 
 ## ディレクトリ構成
+```
 .
 └── transformer
     ├── evaluation_results
@@ -42,7 +43,7 @@ pip install torch pandas numpy scikit-learn matplotlib tqdm
     │   ├── test_independent_eval_future_returns_epbest_model_file.txt
     │   └── test_independent_eval_metrics_epbest_model_file.txt
     └── ev_transformer.ipynb（メインの実行ファイル）
-
+```
 
 ## モデル構造 
 モデルはPyTorchで実装されており、主に2つのクラスから構成されます。
