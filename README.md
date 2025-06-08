@@ -39,9 +39,9 @@ pip install torch pandas numpy scikit-learn matplotlib tqdm
 └── transformer
     ├── evaluation_results
     │   ├── best_transformer_model.pth
-    │   ├── test_independent_eval_future_returns_epbest_model_file.csv
-    │   ├── test_independent_eval_future_returns_epbest_model_file.txt
-    │   └── test_independent_eval_metrics_epbest_model_file.txt
+    │   ├── test_independent_eval_future_returns_epbest_model_file.csv (テスト期間のシグナル後指標)
+    │   ├── test_independent_eval_future_returns_epbest_model_file.txt (テスト期間のシグナル後指標)
+    │   └── test_independent_eval_metrics_epbest_model_file.txt (ハードラベリングに対する分類テスト結果)
     └── ev_transformer.ipynb（メインの実行ファイル）
 ```
 
